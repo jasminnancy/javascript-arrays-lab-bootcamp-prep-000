@@ -20,7 +20,7 @@ function appendKitten(name) {
   return kittens.concat(name)
 }
 function prependKitten(name) {
-  newKittens = kittens.push(name)
+var newKittens = kittens.push(name)
   return NewKittens
 
 }
